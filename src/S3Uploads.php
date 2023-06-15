@@ -37,8 +37,7 @@ class S3Uploads
         }
     }
 
-    public function getObject(string $name, string $destination = null): array
-    {
+    public function getObject(string $name, string $destination = null): array {
         try {
             $payload = [
                 'Bucket' => $this->bucketName,
