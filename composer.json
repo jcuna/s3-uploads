@@ -1,0 +1,19 @@
+{
+    "name": "jcuna/s3-uploads",
+    "description": "examples to work with s3",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "aws/aws-sdk-php": "^3.273"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jcuna\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jon Cuna"
+        }
+    ]
+}
