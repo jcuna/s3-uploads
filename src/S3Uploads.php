@@ -17,7 +17,7 @@ class S3Uploads
     public function __construct() {
         $this->bucketName = getenv('S3_BUCKET_NAME');
         $this->client = new S3Client([
-            'region' => $_ENV['AWS_REGION'],
+            'region' => getenv('AWS_REGION'),
             'version' => '2006-03-01'
         ]);
     }
