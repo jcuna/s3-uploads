@@ -1,6 +1,6 @@
 # S3 Uploads ejemplos
 
-### Las siguientes variables deben de estar disponible para poder ser accedidas atravez de la instancia de PHP. i.e
+### Las siguientes variables deben de estar disponibles para poder ser accedidas a traves de la instancia de PHP. i.e
 ```php
 $_ENV['S3_BUCKET_NAME'];
 # o
@@ -20,5 +20,5 @@ composer install
 Para informacion de como utilizar composer, https://getcomposer.org/download/
 
 ### Notas:
-1. No escriba los secretos de accesso en los archivos php o ningun archivo de texto que sea parte de un proyecto de codigo
+1. No guarde los secretos de acceso en los archivos php o ningun archivo de texto que sea parte de un proyecto de codigo
 2. AWS utiliza un sistema para escanear repositorios de codigo y si encuentra secretos, pueden desactivar la cuenta de AWS a la que los secrtos pertenecen.
